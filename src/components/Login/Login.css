@@ -1,0 +1,35 @@
+.login {
+    background-image: url("https://cdnb.artstation.com/p/assets/images/images/024/538/827/original/pixel-jeff-clipa-s.gif?1582740711");
+    background-size: cover;
+    height:747px;
+}
+
+.login_col {
+    background-image:url("https://cdn.dribbble.com/users/2279326/screenshots/7052817/media/3f425fa0a486f048524bfdb829139e01.gif");
+    height:30%;
+    padding: 25px;
+    border-radius:10px;
+    /* margin: auto; */
+    top: 33%;
+    animation:onDown ease .9s;
+    transition:all .2s linear;
+}
+
+.login_title {
+    margin-bottom: 1.5em!important;
+    color: rgb(255 235 23 / 85%)!important;
+    font-weight: bold!important;
+    font-size: 43px!important;
+}
+
+@keyframes onDown {
+    from {
+        top: -33%;
+        opacity: 0;
+    }
+
+    to {
+        top: 33%;
+        opacity: 1;
+    }
+}
